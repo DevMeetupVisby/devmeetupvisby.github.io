@@ -1,1 +1,92 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dev Meetup Visby</title>
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Oswald" rel="stylesheet">
+  <style>
+    html {
+      background: url(./pattern.svg) no-repeat center center fixed, url("./bg.jpg") no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-blend-mode: lighten;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    .bg {
+      /* The image used */
+      z-index: 500;
+      /* Full height */
+      min-height: 100%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      
+    }
+
+    .flex-container {
+      height: 100%;
+      padding: 0;
+      margin: 0;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .row {
+      width: auto;
+    }
+
+    .flex-item {
+      line-height: 20px;
+      color: white;
+      font-weight: bold;
+      font-size: 2em;
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Oswald', sans-serif;
+      text-transform: uppercase;
+      font-size: 3em;
+    }
+
+    h2 {
+      font-family: 'Great Vibes', cursive;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flex-container">
+    <div class="row">
+      <div class="flex-item">
+        <h1>
+          <b>- Dev Meetup -</b>
+        </h1>
+        <h2>Visby</h2>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
